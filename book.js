@@ -20,3 +20,12 @@ function addBookToLibrary(title, author, pages, read) {
     myLibrary.push(book)
 }
 
+let dialog = document.querySelector("dialog")
+
+function showDialog() {
+    document.getElementById('this-dialog').show()
+}
+
+function hideDialog() {
+    document.getElementById("this-dialog").close()
+}
